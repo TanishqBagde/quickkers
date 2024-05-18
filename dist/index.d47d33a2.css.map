@@ -1,0 +1,1 @@
+{"mappings":"ACAA,eACA,qBACA","sources":["index.d47d33a2.css","index.css"],"sourcesContent":["@tailwind base;\n\n@tailwind components;\n\n@tailwind utilities;\n\n/*# sourceMappingURL=index.d47d33a2.css.map */\n","@tailwind base;\n@tailwind components;\n@tailwind utilities;"],"names":[],"version":3,"file":"index.d47d33a2.css.map"}

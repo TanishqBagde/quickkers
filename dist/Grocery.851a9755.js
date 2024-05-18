@@ -1,0 +1,2 @@
+var e=globalThis.parcelRequire21de;(0,e.register)("beB1M",function(t,r){Object.defineProperty(t.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(t.exports,"default",{get:()=>i,set:void 0,enumerable:!0,configurable:!0});var o=e("hRtCB"),i=()=>(0,o.jsxs)("div",{className:"font-bold text-center p-4 text-xl",children:[(0,o.jsx)("h1",{children:"Welcome to our Grocery Store , it is in the state of making "}),(0,o.jsx)("h2",{children:"Opening soon !! "})]})});
+//# sourceMappingURL=Grocery.851a9755.js.map
