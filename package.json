@@ -33,7 +33,16 @@
     "react-redux": "^9.1.0",
     "react-router-dom": "^6.22.3"
   },
-  "browserslist": [
-    "last 8 versions of Chrome"
-  ]
+  "browserslist": {
+    "production": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
