@@ -7,6 +7,18 @@
     
     <title>Namaste React</title>
     <link href="./index.css" type="text/css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            content: [
+                "./src/**/*.{html,js,ts,jsx,tsx}",
+            ],
+            theme: {
+                extend: {},
+            },
+            plugins: [],
+        }
+      </script>
 </head>
 <body>
     <div id="root">
