@@ -1,6 +1,6 @@
 import RestaurantCard from "./RestaurantCard";
 import {useState, useEffect, useContext} from "react";
-import Shimmer from "./Shimmer";
+// import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { withPromotedLabel } from "./RestaurantCard";
@@ -42,9 +42,9 @@ const Body = () => {
       };
        
       //Conditional Rendering
-       if (listOfRestaurants === 0){
-          return <Shimmer/>
-       };
+      //  if (listOfRestaurants === 0){
+      //     return <Shimmer/>
+      //  };
     
 
        const onlineStatus = useOnlineStatus();
@@ -52,10 +52,7 @@ const Body = () => {
 
        //const {LoggedIn,setUserName} = useContext(UserContext); 
 
-     return listOfRestaurants.length === 0 ? (
-         <Shimmer />
-         ) : (
-    <div className ="Body bg-yellow-50 border-solid  border-yellow-800 rounded-lg ">
+     return <div className ="Body bg-yellow-50 border-solid  border-yellow-800 rounded-lg ">
       
         <div className="flex items-center px-3 pt-1 py-1 bg-teal-700 m-8 rounded-2xl "> 
          <div className ="search m-4 p-4 rounded-1xl">
@@ -114,8 +111,6 @@ const Body = () => {
   ))}
  </div>
 </div>
-
-         );
   };
 
 export default Body;
